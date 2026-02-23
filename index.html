@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бекзат & Зарина - Той салтанаты</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="music" src="music.mp3"></audio>
+
+    <div class="invitation-block">
+        <img src="1.png" alt="Фото 1" class="gallery-image">
+        <img src="2.png" alt="Фото 2" class="gallery-image">
+        <img src="3.png" alt="Фото 3" class="gallery-image">
+        <img src="4.png" alt="Фото 4" class="gallery-image">
+        <img src="5.png" alt="Фото 5" class="gallery-image">
+
+        <button class="music-button" id="musicBtn">Әуенді қосу</button>
+        <button class="map-button" id="mapBtn">Картаны ашу</button>
+
+        <div class="timer-container" id="timerContainer">
+            <div class="timer-item">
+                <div class="timer-value" id="days">0</div>
+                <div class="timer-label">күн</div>
+            </div>
+            <div class="timer-separator">:</div>
+            <div class="timer-item">
+                <div class="timer-value" id="hours">0</div>
+                <div class="timer-label">сағат</div>
+            </div>
+            <div class="timer-separator">:</div>
+            <div class="timer-item">
+                <div class="timer-value" id="minutes">0</div>
+                <div class="timer-label">минут</div>
+            </div>
+            <div class="timer-separator">:</div>
+            <div class="timer-item">
+                <div class="timer-value" id="seconds">0</div>
+                <div class="timer-label">секунд</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

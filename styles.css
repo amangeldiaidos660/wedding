@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eceaec;
+}
+
+.invitation-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -5px;
+}
+
+.music-button {
+    position: absolute;
+    width: 270px;
+    height: 80px;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    border: 2px solid #000000;
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-weight: 700;
+    z-index: 10;
+    top: 540px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.music-button:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+.map-button {
+    position: absolute;
+    width: 270px;
+    height: 80px;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    border: 2px solid #000000;
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-weight: 700;
+    z-index: 10;
+    bottom: 620px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.map-button:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+.timer-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    z-index: 10;
+    bottom: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.timer-value {
+    font-size: 60px;
+    font-weight: 700;
+    color: #000000;
+    min-width: 60px;
+    text-align: center;
+}
+
+.timer-label {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.timer-separator {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 5px;
+}
+
